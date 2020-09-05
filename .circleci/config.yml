@@ -1,6 +1,7 @@
-version: 2
+version: 2.1
+
 jobs:
-    build:
+    run_tests:
         docker:
             - image: circleci/python:stretch
         steps:
