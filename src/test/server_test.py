@@ -1,6 +1,7 @@
-from src.main import app
 import unittest
-
+import sys
+sys.path.append('./src/main')
+from . import app
 
 class TestResponse(unittest.TestCase):
     def setUp(self):
